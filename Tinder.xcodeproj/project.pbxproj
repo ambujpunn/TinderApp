@@ -15,6 +15,8 @@
 		E768CB961BAC92DD008C88E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E768CB951BAC92DD008C88E3 /* Images.xcassets */; };
 		E768CB991BAC92DD008C88E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E768CB971BAC92DD008C88E3 /* LaunchScreen.xib */; };
 		E768CBA51BAC92DD008C88E3 /* TinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E768CBA41BAC92DD008C88E3 /* TinderTests.m */; };
+		E768CBB01BAC93AD008C88E3 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E768CBAF1BAC93AD008C88E3 /* CardsViewController.m */; };
+		E768CBB31BACB9AC008C88E3 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E768CBB21BACB9AC008C88E3 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		E768CB9E1BAC92DD008C88E3 /* TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E768CBA31BAC92DD008C88E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E768CBA41BAC92DD008C88E3 /* TinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderTests.m; sourceTree = "<group>"; };
+		E768CBAE1BAC93AD008C88E3 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		E768CBAF1BAC93AD008C88E3 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		E768CBB11BACB9AC008C88E3 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E768CBB21BACB9AC008C88E3 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +92,12 @@
 				E768CB891BAC92DD008C88E3 /* AppDelegate.h */,
 				E768CB8A1BAC92DD008C88E3 /* AppDelegate.m */,
 				E768CB8F1BAC92DD008C88E3 /* ViewController.h */,
+				E768CBAE1BAC93AD008C88E3 /* CardsViewController.h */,
+				E768CBAF1BAC93AD008C88E3 /* CardsViewController.m */,
 				E768CB901BAC92DD008C88E3 /* ViewController.m */,
 				E768CB921BAC92DD008C88E3 /* Main.storyboard */,
+				E768CBB11BACB9AC008C88E3 /* ProfileViewController.h */,
+				E768CBB21BACB9AC008C88E3 /* ProfileViewController.m */,
 				E768CB951BAC92DD008C88E3 /* Images.xcassets */,
 				E768CB971BAC92DD008C88E3 /* LaunchScreen.xib */,
 				E768CB8C1BAC92DD008C88E3 /* Tinder.xcdatamodeld */,
@@ -226,6 +236,8 @@
 				E768CB881BAC92DD008C88E3 /* main.m in Sources */,
 				E768CB911BAC92DD008C88E3 /* ViewController.m in Sources */,
 				E768CB8E1BAC92DD008C88E3 /* Tinder.xcdatamodeld in Sources */,
+				E768CBB31BACB9AC008C88E3 /* ProfileViewController.m in Sources */,
+				E768CBB01BAC93AD008C88E3 /* CardsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
